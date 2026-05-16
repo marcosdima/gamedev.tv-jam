@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dqf6ih84rp2eb"]
 
-[ext_resource type="Script" uid="uid://br2w3fjnx53ob" path="res://tests/globals/test_globals.gd" id="1_oyxno"]
+[ext_resource type="Script" uid="uid://5odmck4ubhcy" path="res://tests/globals/test_globals.gd" id="1_oyxno"]
 
 [node name="TestGlobals" type="Control" unique_id=2113097546]
 layout_mode = 3

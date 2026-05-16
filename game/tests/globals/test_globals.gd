@@ -1,4 +1,4 @@
-extends Node2D
+extends Control
 
 func _on_globals_pressed() -> void:
 	print("Globals:")
@@ -9,6 +9,6 @@ func _on_globals_pressed() -> void:
 func _on_palette_pressed() -> void:
 	print("Palette Colors:")
 	print("BG: " + str(Palette.BG))
-	print("FG: " + str(Palette.FG))
 	print("Accent: " + str(Palette.PRIMARY))
 	print("Highlight: " + str(Palette.ACCENT))
+	print("Text: " + str(Palette.TEXT))
