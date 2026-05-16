@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dqf6ih84rp2eb"]
+
+[ext_resource type="Script" uid="uid://br2w3fjnx53ob" path="res://tests/globals/test_globals.gd" id="1_oyxno"]
+
+[node name="TestGlobals" type="Node2D" unique_id=1087806061]
+script = ExtResource("1_oyxno")

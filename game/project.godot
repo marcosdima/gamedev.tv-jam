@@ -14,6 +14,11 @@ config/name="game"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Globals="*uid://bw57hd6dabn4i"
+Palette="*uid://cr8yrr834on6q"
+
 [dotnet]
 
 project/assembly_name="game"
