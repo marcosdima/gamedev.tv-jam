@@ -1,11 +1,14 @@
 extends Node2D
 
+func _on_globals_pressed() -> void:
+	print("Globals:")
+	print("Screen Size: " + str(Globals.score))
+	print("OS Name: " + str(Globals.player_name))
 
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+func _on_palette_pressed() -> void:
+	print("Palette Colors:")
+	print("BG: " + str(Palette.BG))
+	print("FG: " + str(Palette.FG))
+	print("Accent: " + str(Palette.PRIMARY))
+	print("Highlight: " + str(Palette.ACCENT))
